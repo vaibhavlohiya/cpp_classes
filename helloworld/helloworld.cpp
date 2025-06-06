@@ -10,4 +10,3 @@ int main()
     std::cin.get(); // Wait for user input before closing the console
 }
 
-
