@@ -1,10 +1,10 @@
 // Writing your first program!
 
-#include <iostream>
+#include <iostream> // Standard c++ library.
 using namespace std;
 
-int main()
+int main() // The main function
 {
-    cout << "Hello, World!" << endl;
-    cin.get();    
+    cout << "Hello, World!" << endl; // standard character out and standard endline.
+    cin.get();    // standard character in 
 }
