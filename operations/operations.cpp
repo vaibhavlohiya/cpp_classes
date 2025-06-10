@@ -9,6 +9,5 @@ int main()
     std::cout << "Second number: ";
     std::cin >> number_2;
 
-    std::cout << "The result is " << number_1 + number_2 << std::endl;
-    return 0;
+    std::cout << "The result is " << number_1 / number_2 << std::endl;
 }
