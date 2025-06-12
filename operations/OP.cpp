@@ -5,5 +5,5 @@ const char* Log(const char* message)
 
 int OP(int a, int b)
 {
-    return a * b;
+    return 5 * 10;
 }

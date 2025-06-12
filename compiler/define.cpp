@@ -1,10 +1,10 @@
-#define PI 3.1415926526
+//#define PI 3.1415926526
 #define Square(x) (x*x)
 #define Radius int
 
 #include <iostream>
 
-#ifdef PI 
+#ifdef PI
 int main()
 {
     Radius r;
