@@ -1,4 +1,4 @@
-//#define PI 3.1415926526
+#define PI 3.1415926526
 #define Square(x) (x*x)
 #define Radius int
 
