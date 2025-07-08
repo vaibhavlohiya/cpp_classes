@@ -14,7 +14,7 @@ int main()
     std::cout << "New value: " << value << std::endl;
 
     // Pointer arithmetic example
-    int array[3] = {1, 2, 3};
+    int array[3] = {value, 2, 3};
     int* arrPtr = array;  // Points to the first element
 
     std::cout << "Array elements via pointer:\n";

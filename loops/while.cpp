@@ -24,7 +24,7 @@ int main()
     bool condition = false;
     do 
     {
-        return 0;
+        //return 0;
         std::cout << "Hello for the last time, get me out!" << std::endl;
     } while (condition);
 

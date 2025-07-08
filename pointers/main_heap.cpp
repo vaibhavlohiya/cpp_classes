@@ -4,12 +4,16 @@
 
 int main()
 {
-    char* buffer = new char[4]; //heap allocation. I'm asking to allocate 4 bytes of memory for us
-    memset(buffer, 0, 4);
+    char* hbuffer = new char[4]; //heap allocation. I'm asking to allocate 4 bytes of memory for us
+    memset(hbuffer, 0, 4);
 
-    char** ptr = &buffer; //double pointer
-    LOG(*ptr);
+    int a = 8;
 
-    delete[] buffer;
+    char buffer[4] = {}; // stack allocation
+
+    //char** ptr = &buffer; //double pointer
+    //LOG(*ptr);
+
+    delete[] hbuffer;
     std::cin.get();
 }
