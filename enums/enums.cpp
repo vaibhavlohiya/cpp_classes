@@ -1,8 +1,8 @@
 #include <iostream>
 
-enum Example : char
+enum Example : unsigned char
 {
-    A = -1, B, C // if you dont specify a value the first one will be 0 and it will increment. 
+    A, B, C // if you dont specify a value the first one will be 0 and it will increment. 
 };
 
 /*int a = 0;
